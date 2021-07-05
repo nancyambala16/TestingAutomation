@@ -26,6 +26,7 @@ public class demo3 {
 	{
 		driver.get("https://www.google.com");
 		String actualTitle=driver.getTitle();
+	        String actualTitle1=driver.getTitle();
 		Assert.assertEquals(actualTitle, "Google");
 	}
 	
