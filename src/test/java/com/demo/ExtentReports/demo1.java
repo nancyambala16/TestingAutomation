@@ -38,7 +38,6 @@ public class demo1 {
 	}
 	
 	
-	
 	@AfterMethod
 	public void teardown()
 	{
