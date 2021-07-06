@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class demo1 {
+public class demo4 {
 	
 	public WebDriver driver;
 	
@@ -21,7 +21,7 @@ public class demo1 {
 		driver=new ChromeDriver();
 	}
 	
-	@Test(invocationCount = 2)
+	@Test(invocationCount = 10)
 	public void correctTitle()
 	{
 		driver.get("https://www.google.com");
